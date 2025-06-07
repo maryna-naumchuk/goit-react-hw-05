@@ -1,0 +1,16 @@
+.mainTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #00ffec;
+    text-shadow: 4px 4px 10px rgba(0, 255, 238, 0.6);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: color 250ms linear, transform 250ms linear;
+  }
+  
+  .mainTitle:hover {
+    color: #55e402;
+    transform: scale(1.02);
+  }

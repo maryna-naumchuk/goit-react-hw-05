@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 12px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  
+  .contentWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .text {
+    font-size: 16px;
+    color: #ddd;
+    line-height: 1.4;
+    max-height: 150px;
+    overflow: auto;
+    text-overflow: ellipsis;
+    position: relative;
+  }
+  
+  .postedData {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: auto;
+  }

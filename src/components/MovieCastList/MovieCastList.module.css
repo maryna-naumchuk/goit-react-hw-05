@@ -1,0 +1,38 @@
+.btn {
+    display: block;
+    padding: 10px 16px;
+    background: #222;
+    border: 1px solid orangered;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 250ms linear, transform 250ms linear,
+      border-color 250ms linear;
+    margin-bottom: 20px;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    background: orangered;
+    color: black;
+    transform: scale(1.05);
+    border-color: white;
+  }
+  
+  .list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .item {
+    background-color: #222;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(255, 87, 34, 0.2);
+  }

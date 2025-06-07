@@ -1,0 +1,22 @@
+.list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .item {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    transition: transform 250ms linear, box-shadow 250ms linear;
+  }
+  
+  .item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 255, 238, 0.6);
+  }

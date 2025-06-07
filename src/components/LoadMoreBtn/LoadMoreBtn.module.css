@@ -1,0 +1,25 @@
+.btn {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff4500;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 250ms linear, transform 250ms linear;
+    box-shadow: 4px 4px 10px rgba(255, 69, 0, 0.4),
+      -4px -4px 10px rgba(255, 140, 0, 0.2);
+    margin: 0 auto;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    background-color: #ff6347;
+    transform: scale(1.05);
+    box-shadow: 6px 6px 12px rgba(255, 69, 0, 0.5),
+      -6px -6px 12px rgba(255, 140, 0, 0.3);
+  }

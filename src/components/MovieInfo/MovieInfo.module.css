@@ -1,0 +1,123 @@
+.container {
+    position: relative;
+    display: flex;
+    background-color: #1a1d23;
+    color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    transition: transform 250ms linear;
+  }
+  
+  .img {
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 255, 238, 0.2);
+    transition: transform 250ms ease;
+  }
+  
+  .contentWrap {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: 600;
+    color: orangered;
+    text-shadow: 0 0 15px rgba(255, 69, 0, 0.8);
+  }
+  
+  .genresWrap {
+    margin-top: 10px;
+  }
+  
+  .genre {
+    display: inline-block;
+    background-color: rgba(255, 69, 0, 0.2);
+    color: orangered;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  .homepage {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: orangered;
+    text-decoration: none;
+    transition: color 250ms linear;
+  }
+  
+  .homepage:hover,
+  .homepage:focus {
+    color: #aaff22;
+  }
+  
+  .overviewWrap {
+    margin-top: 20px;
+  }
+  
+  .overviewTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .overviewText {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
+  .rating {
+    font-size: 18px;
+  }
+  
+  .ratingWrap {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .countriesWrap {
+    margin-top: 20px;
+  }
+  
+  .counries {
+    display: inline-block;
+    margin: 5px;
+    background-color: rgba(255, 69, 0, 0.2);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+  .date {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .dateNumber {
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .tagline {
+    margin-top: 10px;
+    font-size: 18px;
+    font-style: italic;
+    color: #999;
+  }
