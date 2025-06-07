@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const TOKEN =
-  'eyJhbGciOiJIUzI1NiJ9.eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMDBhNGE5NDYwNzA5NGU1YTg0N2YzYTI0M2Q2MjQwMCIsIm5iZiI6MTc0ODc5MjMxOC41Niwic3ViIjoiNjgzYzczZmViMzAzMDZmNjU3ZjJiMWJiIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.n12f82c2RJFHSTSKKsTlmFvyM30MJuokxn_aigswmyI';
+  'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMDBhNGE5NDYwNzA5NGU1YTg0N2YzYTI0M2Q2MjQwMCIsIm5iZiI6MTc0ODc5MjMxOC41Niwic3ViIjoiNjgzYzczZmViMzAzMDZmNjU3ZjJiMWJiIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.n12f82c2RJFHSTSKKsTlmFvyM30MJuokxn_aigswmyI';
 
 const options = {
   headers: {

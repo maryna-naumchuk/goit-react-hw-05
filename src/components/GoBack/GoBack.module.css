@@ -3,9 +3,9 @@
     padding: 10px 20px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #ffcc00;
+    color: #9c23a4;
     background: rgba(255, 255, 255, 0.07);
-    border: 2px solid #ffcc00;
+    border: 2px solid #6a5692;
     border-radius: 8px;
     text-decoration: none;
     transition: background-color 250ms linear, color 250ms linear,
@@ -14,7 +14,7 @@
   
   .goBack:hover,
   .goBack:focus {
-    background: #ffcc00;
-    color: #222;
+    background: #e4aef4;
+    color: #773879;
     transform: scale(1.05);
   }
